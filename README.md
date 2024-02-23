@@ -22,19 +22,16 @@ This SQLite database file stores user information such as usernames, passwords, 
 ## Usage:
 
 1. Ensure Python is installed on your system.
-2. Install the required dependencies by running:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the server using the following command:
+
+2. Run the server using the following command:
    ```
    python server.py
    ```
-4. Run the client using the following command:
+3. Run the client using the following command:
    ```
    python client.py
    ```
-5. Follow the prompts on the client-side to register/login and send/receive emails.
+4. Follow the prompts on the client-side to register/login and send/receive emails.
 
 ## Configuration:
 
@@ -48,8 +45,6 @@ This SQLite database file stores user information such as usernames, passwords, 
 ## Notes:
 
 - This is a basic implementation and may lack features present in commercial email systems.
-- Security considerations should be taken into account when deploying in a production environment.
 - Always handle sensitive information such as passwords and private keys securely.
 
-## License:
-This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute it as per the terms of the license.
+
